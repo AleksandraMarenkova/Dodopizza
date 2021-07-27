@@ -1,23 +1,18 @@
-.container {
-  width: 800px;
-  margin: auto;
-}
+
 .footer {
   background: #464c55;
   color: white;
   padding-top: 50px;
   padding-bottom: 40px;
 }
-.menu {
+.footer-menu {
   display: flex;
-  margin: 10px;
   padding: 0;
   align-items: flex-start;
 }
 .menu_description {
   display: flex;
   flex-direction: column;
-  padding-top: 10px;
   width: 25%;
   margin-right: 20px;
 }
@@ -27,7 +22,7 @@
   margin: 0;
 }
 
-.list {
+.footer-list {
   list-style-type: none;
   margin: 0;
   width: 137px;
@@ -41,8 +36,8 @@
   margin-top: 10px;
 }
 @media (max-width: 800px){
-  .menu {
-    width: 300px;
+  .footer-menu {
+    width: 600px;
     height: 800px;
     display: inline-block;
     flex-direction: column;
@@ -54,7 +49,7 @@
 
 }
 @media (min-width: 800px) {
-  .menu {
+  .footer-menu {
     width: 600px;
     height: 200px;
   }
