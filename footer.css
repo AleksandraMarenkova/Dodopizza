@@ -1,0 +1,33 @@
+@import "footer-copy.css";
+@import "footer-info.css";
+@import "footer-menu.css";
+@import "footer-contacts.css";
+
+.footer {
+  background-color: #464c55;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  color: #ffffff;
+}
+
+.footer__menu-box {
+  display: flex;
+}
+
+.footer__menu {
+  flex-basis: 66.66%;
+  margin-right: 10px;
+}
+
+.footer__contacts {
+  flex-basis: 33.333%;
+  margin-left: 10px;
+}
+
+.footer-info {
+  margin-top: 93px;
+  width: 66.66%;
+}
+.footer__copy {
+  margin-top: 40px;
+}
