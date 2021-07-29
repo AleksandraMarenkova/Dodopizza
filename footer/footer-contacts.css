@@ -40,13 +40,16 @@
 .footer-contacts__img__container {
   display: block;
 }
+/*ne ponyatno*/
 
-@media (min-width: 400px) {
-  .number,
-  .call,
-  .mail {
-    display: none;
+@media (max-width: 224px) {
+  .footer-contacts__img__container
+  .footer-contacts__number
+  .footer-contacts__call {
+    flex-direction: column;
+
   }
+}
 
   .footer-img {
     margin-top: 0;

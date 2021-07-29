@@ -35,8 +35,6 @@
 }
 @media (max-width: 800px) {
   .footer-menu {
-    width: 600px;
-    height: 800px;
     display: inline-block;
     flex-direction: column;
   }
@@ -46,7 +44,5 @@
 }
 @media (min-width: 800px) {
   .footer-menu {
-    width: 600px;
-    height: 200px;
   }
 }

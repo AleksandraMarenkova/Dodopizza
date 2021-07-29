@@ -1,4 +1,8 @@
 @import "base.css";
 @import "normalize.css";
 @import "footer/footer.css";
-@import "recommendation/recommendation-list.css";
+@import "header-sliders-recom-prod/recommendation-list.css";
+@import "header-sliders-recom-prod/header.css";
+@import "header-sliders-recom-prod/header-menu.css";
+@import "header-sliders-recom-prod/product.css";
+@import "header-sliders-recom-prod/slider.css";
